@@ -1,0 +1,344 @@
+<html>
+  <head>
+    <title>Kumara Kahatapitiya</title>
+    <script src='js/jquery-1.11.2.min.js'></script>
+    <script src='js/bootstrap.min.js'></script>
+    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,500,700,900,100italic,100,300,300italic,400italic,500italic,900italic,700italic' rel='stylesheet' type='text/css'>
+    <style>
+      body {
+        font-family: 'sans-serif';
+        font-size: 12pt;
+        background-color: #F6FDFF; 
+        color: #4F6071;
+      }
+      .color1 {
+        background-color: #CCC;
+      }
+      #header {
+        width: 100%;
+        height: 360px;
+        background-color: #B9DAEE; 
+      }
+      #header-inner {
+        position: absolute;
+        width: 70%;
+        left: 30%;
+        top: 150px;
+      }
+      .img-me {
+        border: 3px solid white;
+        float: left;
+        height: 200px;
+      }
+      .header-text {
+        margin-top: 60px;
+        margin-left: 220px;
+      }
+      .header-text-name {
+        font-weight: bold;
+        font-size: 40px;
+      }
+      .header-text-email {
+        font-size: 20px;
+        font-style: italic;
+      }
+      .header-text-desc {
+        font-size: 20px;
+      }
+      #contact-info {
+        position: absolute;
+        left: 80%;
+        width: 20%;
+        top: 360px;
+        height: 100px;
+        background-color: #EEE;
+      }
+      .vspace {
+        margin-bottom: 20px;
+      }
+      .vspace-top {
+        margin-top: 30px;
+      }
+      .paper-image {
+        width: 200px;
+      }
+      .paper-title {
+        font-size: 14pt;
+        font-weight: bold;
+      }
+      .paper-authors {
+      }
+      .paper-authors a {
+        color: #4F6071;
+      }
+      .paper-link {
+      }
+    </style>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-50623594-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id='header'>
+      <div id='header-inner'>
+        <img src='images/kumara.jpg' class='img-circle img-me'>
+        <div class='header-text'>
+          <div class='header-text-name'>
+            Kumara Kahatapitiya
+          </div>
+          <div class='header-text-email'>
+            kkahatapitiy at cs dot stonybrook dot edu
+          </div>
+          <div>
+            <a href="https://scholar.google.com/citations?user=ExGkzjQAAAAJ&hl=en">[Google Scholar]</a>
+            <a href="https://github.com/kkahatapitiya">[GitHub]</a>
+            <a href="https://twitter.com/3kberockin">[Twitter]</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class='container'>
+      <div class='col-xs-10 col-md-offset-1'>
+        <div class='row'>
+          <h1>About</h1>
+          <div class='vspace'>
+            I am a second year PhD student in Computer Science at the Stony Brook University and a member of
+            <a href="https://www3.cs.stonybrook.edu/~cvl/" target='_blank'>CVLab</a>,
+            co-advised by <a href="http://michaelryoo.com" target='_blank'>Prof. Michael Ryoo</a> and
+            <a href="https://www3.cs.stonybrook.edu/~samaras/" target='_blank'>Prof. Dimitris Samaras</a>.
+            My broad research interests lie in computer vision and machine learning. Currently, I am exploring 
+            better representations for video understanding and video synthesis.
+          </div>
+          <div class='vspace'>
+            Prior to this, I worked as a Research Assistant at University of Moratuwa, Sri Lanka, under the supervision
+            of <a href="http://ranga.staff.uom.lk" target='_blank'>Dr. Ranga Rodrigo</a>. I completed my B.Sc. in 2018 specializing in Electronic & Telecommunication Engineering
+            at University of Moratuwa, advised by <a href="https://uom.lk/staff/Dias.SAD.php" target='_blank'>Prof. Dileeka Dias</a> and
+            <a href="http://www.ent.mrt.ac.lk/~prathapa/Site_1/Welcome.html" target='_blank'>Dr. Prathapasinghe Dharmawansa</a>.
+          </div>
+        </div>
+
+
+
+        <div class='row'>
+          <h1>Recent News</h1>
+          
+          <table>
+            <colgroup>
+              <col span="1" style="width: 10%;">
+              <col span="1" style="width: 90%;">
+            </colgroup>
+
+            <tr style="height:2em"><td valign="top"><font>[Aug 2020]</font></td><td class="news" valign="top" >
+              Our paper titled <a href='https://arxiv.org/abs/1907.11432'>Exploiting the Redundancy in Convolutional Filters for Parameter Reduction</a>
+              was accepted at WACV 2021.
+            </td></tr>
+
+            <tr style="height:2em"><td valign="top"><font>[Jun 2020]</font></td><td class="news" valign="top" >
+              Our paper titled <a href='https://arxiv.org/abs/2006.13904'>Feature-dependent Cross-Connections in Multi-Path Neural Networks</a>
+              was accepted at ICPR 2020.
+            </td></tr>
+
+            <tr style="height:3em"><td valign="top"><font>[May 2020]</font></td><td class="news" valign="top" >
+              Our paper titled <a href='https://ieeexplore.ieee.org/abstract/document/9120712'>On the Exact Outage Probability of 2x2 MIMO-MRC in Correlated Rician Fading</a>
+              was presented at IEEE Wireless Communications and Networking Conference (WCNC) 2020 held virtually.
+            </td></tr>
+
+            <tr style="height:2em"><td valign="top"><font>[Sep 2019]</font></td><td class="news" valign="top" >
+              Our paper titled <a href='https://ieeexplore.ieee.org/abstract/document/9120712'>Context-Aware Automatic Occlusion Removal</a>
+              was presented at ICIP 2019 held in Taipei, Taiwan.
+            </td></tr>
+
+            <tr style="height:2em"><td valign="top"><font>[Feb 2019]</font></td><td class="news" valign="top" >
+              I was offered admission to the PhD program in Computer Science at Stony Brook University.
+            </td></tr>
+
+            <tr style="height:3em"><td valign="top"><font>[Oct 2018]</font></td><td class="news" valign="top" >
+              Our paper titled <a href='https://dl.acm.org/doi/abs/10.1145/3267242.3267291'>Low-power Step Counting Paired with Electromagnetic Energy Harvesting for Wearables</a>
+              was presented at ACM International Symposium on Wearable Computers (ISWC) 2018 held in Singapore.
+            </td></tr>
+
+            <tr style="height:3em"><td valign="top"><font>[Oct 2018]</font></td><td class="news" valign="top" >
+              I was awarded the Gold Medal for the best overall performance in Electronic & Telecommunication Engineering
+              at the 39th General Convocation of University of Moratuwa.
+            </td></tr>
+
+            <tr style="height:3em"><td valign="top"><font>[Jan 2018]</font></td><td class="news" valign="top" >
+              I Completed my B.Sc. at the Department of Electronic & Telecommunication Engineering, University of Moratuwa.
+            </td></tr>
+
+          </table>
+        </div>
+
+
+
+
+
+
+        <div class='row'>
+          <h1>Publications</h1>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/linearconv.pdf'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Exploiting the Redundancy in Convolutional Filters for Parameter Reduction
+              </div>
+              <div class='paper-authors'>
+                <u>Kumara Kahatapitiya</u>,
+                <a href='http://ranga.staff.uom.lk'>Ranga Rodrigo</a>
+              </div>
+              <div>WACV 2021</div>
+              <div>
+                <a href='https://arxiv.org/abs/1907.11432'>[paper]</a>
+                <a href='https://github.com/kkahatapitiya/LinearConv'>[code]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/multipath.pdf'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Feature-dependent Cross-Connections in Multi-Path Neural Networks
+              </div>
+              <div class='paper-authors'>
+                <a href='https://www.linkedin.com/in/dumindu-tissera/?originalSubdomain=lk'>Dumindu Tissera</a>,
+                <a href='https://www.linkedin.com/in/mihira-kasun-vithanage-922a43115/'>Kasun Vithanage</a>,
+                <a href='https://www.researchgate.net/profile/Rukshan_Wijesinghe'>Rukshan Wijesinghe</a>,
+                <u>Kumara Kahatapitiya</u>,
+                <a href='https://www.linkedin.com/in/subha-fernando-b23a4a38/?originalSubdomain=lk'>Subha Fernando</a>,
+                <a href='http://ranga.staff.uom.lk'>Ranga Rodrigo</a>
+              </div>
+              <div>ICPR 2020</div>
+              <div>
+                <a href='https://arxiv.org/abs/2006.13904'>[paper]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/wishart.jpg'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                On the Exact Outage Probability of 2x2 MIMO-MRC in Correlated Rician Fading
+              </div>
+              <div class='paper-authors'>
+                <a href='http://www.ent.mrt.ac.lk/~prathapa/Site_1/Welcome.html'>Prathapasinghe Dharmawansa</a>,
+                <u>Kumara Kahatapitiya</u>,
+                <a href='https://ieeexplore.ieee.org/author/37395727200'>Saman Atapattu</a>,
+                <a href='http://www.ece.ualberta.ca/~chintha/'>Chintha Tellambura</a>
+              </div>
+              <div>WCNC 2020</div>
+              <div>
+                <a href='https://ieeexplore.ieee.org/abstract/document/9120712'>[paper]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/occlusion.pdf'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Context-Aware Automatic Occlusion Removal
+              </div>
+              <div class='paper-authors'>
+                <u>Kumara Kahatapitiya</u>,
+                <a href='https://www.linkedin.com/in/dumindu-tissera/?originalSubdomain=lk'>Dumindu Tissera</a>,
+                <a href='http://ranga.staff.uom.lk'>Ranga Rodrigo</a>
+              </div>
+              <div>ICIP 2019</div>
+              <div>
+                <a href='https://arxiv.org/abs/1905.02710'>[paper]</a>
+                <a href='https://github.com/kkahatapitiya/occlusion_removal'>[code]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/loragear.jpg'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Low-power Step Counting Paired with Electromagnetic Energy Harvesting for Wearables
+              </div>
+              <div class='paper-authors'>
+                <u>Kumara Kahatapitiya</u>,
+                <a href='https://www.ahlab.org/people/chamod-weerasinghe'>Chamod Weerasinghe</a>,
+                <a href='https://www.linkedin.com/in/jinaljay/?originalSubdomain=lk'>Jinal Jayawardhana</a>,
+                <a href='https://www.linkedin.com/in/hiranya-kuruppu-146298186/?originalSubdomain=lk'>Hiranya Kuruppu</a>,
+                <a href='https://research.csiro.au/isp/about-us/people/kanchana-thilakarathna/'>Kanchana Thilakarathna</a>,
+                <a href='https://uom.lk/staff/Dias.SAD.php'>Dileeka Dias</a>
+              </div>
+              <div>ISWC 2018</div>
+              <div>
+                <a href='https://dl.acm.org/doi/abs/10.1145/3267242.3267291'>[paper]</a>
+              </div>
+            </div>
+          </div>
+
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-center'>
+              <img class='paper-image' src='images/foxtail.jpg'>
+            </div>
+            <div class='col-xs-9'>
+              <div class='paper-title'>
+                Foxtail+: A Learning with Errors-based Authentication Protocol for Resource-Constrained Devices
+              </div>
+              <div class='paper-authors'>
+                <a href='https://www.linkedin.com/in/matthieu-monteiro-7503655b/?locale=en_US'>Matthieu Monteiro</a>,
+                <u>Kumara Kahatapitiya</u>,
+                <a href='https://research.csiro.au/isp/about-us/people/hassan-asghar/'>Hassan Jameel Asghar</a>,
+                <a href='https://research.csiro.au/isp/about-us/people/kanchana-thilakarathna/'>Kanchana Thilakarathna</a>,
+                <a href='https://research.csiro.au/isp/about-us/people/thierry-rakotoarivelo/'>Thierry Rakotoarivelo</a>,
+                <a href='https://dali-kaafar.github.io'>Dali Kaafar</a>,
+                <a href='http://www.hooklee.com'>Shujun Li</a>,
+                <a href='http://users.monash.edu.au/~rste/'>Ron Steinfeld</a>,
+                <a href='https://researchers.mq.edu.au/en/persons/josef-pieprzyk'>Josef Pieprzyk</a>
+              </div>
+              <div>IACR Cryptol. ePrint Arch.</div>
+              <div>
+                <a href='https://eprint.iacr.org/2020/261.pdf'>[paper]</a>
+              </div>
+            </div>
+          </div>
+
+
+
+          <div class='row'>
+            <h1>Teaching</h1>
+            CSE327: Computer Vision - TA
+            <a href='https://www3.cs.stonybrook.edu/~cse327/'>(Spring 2020)</a>
+            <br>
+            CSE215: Foundations of Computer Science - TA
+            <a href='https://www3.cs.stonybrook.edu/~omkant/215f19.html'>(Fall 2019)</a>
+          </div>
+
+
+        <div class='row vspace-top'></div>
+      </div>
+    </div>
+  </body>
+</html>
