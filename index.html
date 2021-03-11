@@ -9,7 +9,7 @@
       body {
         font-family: 'sans-serif';
         font-size: 12pt;
-        background-color: #F6FDFF; 
+        background-color: #F6FDFF;
         color: #4F6071;
       }
       .color1 {
@@ -18,7 +18,7 @@
       #header {
         width: 100%;
         height: 360px;
-        background-color: #B9DAEE; 
+        background-color: #B9DAEE;
       }
       #header-inner {
         position: absolute;
@@ -108,16 +108,16 @@
 
     <div class='container'>
       <div class='col-xs-13 col-md-offset-1'>
-        
+
         <div class='row'>
           <h1>About</h1>
           <div class='vspace'>
             I am a second year PhD student in Computer Science at the Stony Brook University and a member of
             <a href="https://www3.cs.stonybrook.edu/~cvl/" target='_blank'>CVLab</a>,
-            co-advised by <a href="http://michaelryoo.com" target='_blank'>Prof. Michael Ryoo</a> and
+            co-advised by <a href="http://michaelryoo.com" target='_blank'>Prof. Michael S. Ryoo</a> and
             <a href="https://www3.cs.stonybrook.edu/~samaras/" target='_blank'>Prof. Dimitris Samaras</a>.
-            My broad research interests lie in computer vision and machine learning. Currently, I am exploring 
-            better representations for video understanding and video synthesis.
+            My broad research interests lie in computer vision and machine learning. Currently, I am exploring
+            better representations for video understanding and generative video models.
           </div>
           <div class='vspace'>
             Prior to this, I worked as a Research Assistant at University of Moratuwa, Sri Lanka, under the supervision
@@ -131,12 +131,21 @@
 
         <div class='row'>
           <h1>Recent News</h1>
-          
+
           <table>
             <colgroup>
               <col span="1" style="width: 12%;">
               <col span="1" style="width: 100%;">
             </colgroup>
+
+            <tr style="height:2em"><td valign="top"><font>[Mar 2021]</font></td><td class="news" valign="top" >
+              Our paper titled <a href='https://arxiv.org/abs/2103.01302'>Coarse-Fine Networks for Temporal Activity Detection in Videos</a>
+              was accepted at CVPR 2021.
+            </td></tr>
+
+            <tr style="height:2em"><td valign="top"><font>[Jan 2021]</font></td><td class="news" valign="top" >
+              Two papers were presented at WACV 2021 and ICPR 2020.
+            </td></tr>
 
             <tr style="height:2em"><td valign="top"><font>[Aug 2020]</font></td><td class="news" valign="top" >
               Our paper titled <a href='https://arxiv.org/abs/1907.11432'>Exploiting the Redundancy in Convolutional Filters for Parameter Reduction</a>
@@ -189,6 +198,26 @@
 
           <div class='row vspace-top'>
             <div class='col-xs-3 text-left'>
+              <img class='paper-image' src='images/coarse_fine.pdf'>
+            </div>
+            <div class='col-xs-9 text-left'>
+              <div class='paper-title'>
+                Coarse-Fine Networks for Temporal Activity Detection in Videos
+              </div>
+              <div class='paper-authors'>
+                <u>Kumara Kahatapitiya</u>,
+                <a href='http://michaelryoo.com'>Michael S. Ryoo</a>
+              </div>
+              <div>CVPR 2021</div>
+              <div>
+                <a href='https://arxiv.org/abs/2103.01302'>[paper]</a>
+                <a>[code coming soon]</a>
+              </div>
+            </div>
+          </div>
+
+          <div class='row vspace-top'>
+            <div class='col-xs-3 text-left'>
               <img class='paper-image' src='images/linearconv.pdf'>
             </div>
             <div class='col-xs-9 text-left'>
@@ -201,7 +230,7 @@
               </div>
               <div>WACV 2021</div>
               <div>
-                <a href='https://arxiv.org/abs/1907.11432'>[paper]</a>
+                <a href='https://openaccess.thecvf.com/content/WACV2021/papers/Kahatapitiya_Exploiting_the_Redundancy_in_Convolutional_Filters_for_Parameter_Reduction_WACV_2021_paper.pdf'>[paper]</a>
                 <a href='https://github.com/kkahatapitiya/LinearConv'>[code]</a>
               </div>
             </div>
@@ -248,7 +277,7 @@
               </div>
               <div>WCNC 2020</div>
               <div>
-                <a href='https://ieeexplore.ieee.org/abstract/document/9120712'>[paper]</a>
+                <a href='https://minerva-access.unimelb.edu.au/bitstream/handle/11343/241456/Dharmawansa_On%20the%20Exact%20Outage%20Probability.pdf?sequence=4'>[paper]</a>
               </div>
             </div>
           </div>
@@ -328,7 +357,34 @@
 
 
 
-          <div class='row'>
+
+
+          <div class='row vspace-top'>
+            <h1>Open-source Projects</h1>
+
+            <div class='paper-title'>
+              X3D-Multigrid <a href='https://github.com/kkahatapitiya/X3D-Multigrid'>[source]</a>
+            </div>
+            <div class='vspace'>
+              A PyTorch implementation for "X3D: Expanding Architectures for Efficient Video Recognition models" [CVPR2020] with
+              "A Multigrid Method for Efficiently Training Video Models" [CVPR2020]. In contrast to the original repository by FAIR,
+              this repository provides a simpler, less modular and more familiar structure of implementation for faster and easier adoptation.
+            </div>
+
+            <div class='paper-title'>
+              Optimal Transport in NumPy <a href='https://github.com/kkahatapitiya/numpy_ot'>[source]</a>
+            </div>
+            <div class='vspace'>
+              This repository contrains a few Optimal Transport Algorithms implemented using NumPy, including
+              "A Direct O(1/epsilon) Iteration Parallel Algorithm for Optimal Transport" [NeurIPS2019],
+              "Computational Optimal Transport: Complexity by Accelerated Gradient Descent is better than by Sinkhorn's Algorithm" [PMLR2018] and
+              "Lightspeed Computation of Optimal Transport" [NeurIPS2013].
+            </div>
+          </div>
+
+
+
+          <div class='row vspace-top'>
             <h1>Teaching</h1>
             CSE327: Computer Vision - TA
             <a href='https://www3.cs.stonybrook.edu/~cse327/'>(Spring 2020)</a>
@@ -338,6 +394,7 @@
           </div>
 
 
+        <div class='row vspace-top'></div>
         <div class='row vspace-top'></div>
       </div>
     </div>
